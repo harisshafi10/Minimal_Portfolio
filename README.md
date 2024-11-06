@@ -17,7 +17,7 @@ bash
 Copy code
 git clone https://github.com/harisshafi10/Minimal_Portfolio.git
 Navigate to the project directory:
-bash
+bash 
 Copy code
 cd Minimal_Portfolio
 Install dependencies:
