@@ -1,4 +1,5 @@
 Minimal Portfolio
+
 A minimalistic and responsive portfolio website built with modern web technologies, aimed at showcasing personal projects, skills, and experience in a clean and elegant way.
 
 🚀 Features
