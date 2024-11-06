@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Haris</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="profile-container">
+      <img src="profile.png" alt="Your Profile" class="profile-pic">
+      <h1>Hi, I'm Haris Shafi</h1>
+      <p class="role">Web Developer</p>
+      <div class="social-links">
+        <a  href="https://github.com/harisshafi10" target="_blank" 
+        class="fa fa-github" style="font-size:48px;"></a>
+        <a href="https://www.linkedin.com/in/haris-shafi-753219146/" target="_blank"
+        class="fa fa-linkedin" style="font-size:48px;"></a>
+        <a href="https://x.com/harisshafi3"target="_blank"
+        class="fa fa-twitter" style="font-size:48px;"></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+        My name is Haris Shafi, and I am a Full Stack Web Developer.
+         With 6 months of experience in this field, I have had the 
+         opportunity to work extensively with the MERN Stack (MongoDB, Express.js, React.js, and Node.js).
+          As a developer,I am passionate about creating efficient,
+           user-friendly, and visually appealing web applications.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-gallery">
+      <div class="project-card">
+        <a href="https://portfolio-haris-shafi.vercel.app/" target="_blank">
+            <img src="project1.png" alt="portfolio"></a>
+        <h3>Portfolio</h3>
+        <p>This is a portfolio website</p>
+      </div>
+      <div class="project-card">
+        <a href="https://weather-app-haris.vercel.app/" target="_blank">
+            <img src="project2.png" alt="Weather App"></a>
+        <h3>Weather app</h3>
+        <p>This is a weather app</p>
+      </div>
+      <div class="project-card">
+        <a href="https://password-generator-weld-nine.vercel.app/" target="_blank">
+        <img src="project3.png" alt="Password Generator App"></a>
+        <h3>Passord Generator</h3>
+        <p>This is a Password Generator app</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

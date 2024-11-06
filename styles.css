@@ -1,0 +1,136 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F2F2F2;
+    color: #333;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  header {
+    position:sticky;
+    top: 0%;
+    overflow: hidden;
+    background-color: #EAEAEA;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #F2F2F2;
+  }
+  
+  .profile-container {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;    
+  }
+  
+  .role {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .social-links a {
+    margin: 0 50px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .about, .projects, .contact {
+    padding: 50px 20px;
+    background-color: #EAEAEA;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 800px;
+  }
+  .about h2{
+    margin-bottom: 30px;
+  }
+  .projects h2{
+    margin-bottom: 50px;
+  }
+  
+  .project-gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .project-card {
+    background-color: #FFF;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
